@@ -2,28 +2,23 @@
 <html lang="en">
 
 <head>
-    <title>FastFood</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <title>menu</title>
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="css/menu.css">
+    {{-- <link rel="stylesheet" href="css/style.css">
+     --}}
+
 </head>
 
 <body>
     <header>
-        <a href="/home" class="logo"><img src="image/logo.png" alt=""></a>
+        <a href="/" class="logo"><img src="image/logo.png" alt=""></a>
         <a href="/home" class="lote"><img src="image/lo.png" alt=""></a>
         <a href="/home" class="buger"><img src="image/king.png" alt=""></a>
         <ul class="navmenu">
             <li><a href="/home">Home</a></li>
             <li><a href="/menu">Menu</a></li>
-            <li><a href="/">About</a></li>  
+            <li><a href="/">About</a></li>
             <li><a href="/">Cart</a></li>
             <li><a href="/">Contact</a></li>
         </ul>
@@ -36,26 +31,28 @@
         </div>
     </header>
 
-    <section class="main-home">
-        <div class="main-text">
-            <h5>Tuesday</h5>
-            <p>Sale off day</p>
-
-            <a href="/menu" class="main-btn">Buy Now <i class='bx bx-right-arrow-alt'></i></a>
-        </div>
-
+    <section class="main-menu">
         <div class="down-arrow">
-            <a href="#trending" class="down"><i class='bx bxs-down-arrow-alt'></i></a>
+            <a href="#bestseller" class="down"><i class='bx bxs-down-arrow-alt'></i></a>
         </div>
     </section>
 
-
-    {{-- bestseller product --}}
-    <section class="bestseller-product" id="trending">
+    <section class="bestseller-product" id="bestseller">
         <div class="center-text">
-            <h1>                                   </h1>
-            <h2>BestSeller <span>Products</span></h2>
+            <h1>BestSeller <span>Products</span></h1>
         </div>
+        <div class="titlefood">
+            <h2>All Products</h2>
+            <select>
+                <option>Burgers</option>
+                <option>Fried & Roasted</option>
+                <option>COMBO FOR SHARING</option>
+                <option>Fried Chicken</option>
+                <option>Drink</option>
+            </select>
+        </div>
+
+
 
         <div class="products">
             {{-- product1 --}}
@@ -67,7 +64,7 @@
                 <div class="heart-icon">
                     <i class='bx bx-heart'></i>
                 </div>
-                <div class="rating">
+                <div class="ratting">
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star'></i>
@@ -226,38 +223,15 @@
                     <p>140.000 VND</p>
                 </div>
             </div>
-        </div>
-    </section>
-    {{-- client reviews section --}}
-    <section class="client-reviews">
-        <div class="reviews">
-            <h3>Client Reviews</h3>
-            <img src="image/anh.jpg" alt="">
-            <p>kfc good, i like it </p>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star-half'></i>
-            <h2>Thanh Cong</h2>
-            <p>Student in Xay Dung</p>
-        </div>
-
-    </section>
-    {{-- update new section --}}
-    {{-- <section class="Update-news">
-        <div class="up-center-text">
-            <h2>New Updates</h2>
-        </div>
-
-        <div class="update-cart">
-            <div class="cart">
-                <img src="" alt="">
-                <h5></h5>
+            <div class="page-btn">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>&#8594;</span>
             </div>
         </div>
-    </section> --}}
-    {{-- contact section --}}\
+    </section>
     <section class="contact">
         <div class="contact-info">
             <div class="second">
@@ -265,7 +239,7 @@
             </div>
             <div class="first-info">
                 <img src="image/logo.png" alt="">
-                
+
                 <p>136 Ho Tung Mau Street, <br>KFC Americans 76 fantom Street</p>
                 <p>024667477663</p>
                 <p>fastfood24@gmail.com</p>
