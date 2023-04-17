@@ -19,17 +19,22 @@
             <a href="/home"><img src="image/lo.png" ></a>
         <a href="/home"><img src="image/king.png" ></a>
         </div>
-    </div>
+   
     <nav>
         <ul>
             <li><a href="/home">Home</a></li>
             <li><a href="/menu">Menu</a></li>
             <li><a href="/">About</a></li>
-            <li><a href="/">Cart</a></li>
+            <li><a href="/cart">Cart</a></li>
             <li><a href="/">Contact</a></li>
         </ul>
     </nav>
-
+    <div class="nav-icon">
+        <a href="/"><i class='bx bx-user'></i></a>
+        <a href="/cart"><i class='bx bx-cart'></i></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+</div>
 
 
     <div class="container my-5 produce">

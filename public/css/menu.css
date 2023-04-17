@@ -90,7 +90,7 @@ header.sticky{
 }
 section{
   padding: 5% 10%;
-
+  background-color: bisque;
 }
 .down-arrow{
   position: absolute;

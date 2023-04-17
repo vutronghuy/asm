@@ -224,3 +224,58 @@ header.sticky{
 input:focus{
   outline: none;
 } 
+
+
+.tab-bar {
+  background-color: #eee;
+  border-bottom: 1px solid #ccc;
+}
+
+.tab {
+  display: inline-block;
+  padding: 10px 20px;
+  background-image: url('path/to/icon.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 20px 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+
+
+/* .container{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: max-content;
+}
+.card{
+  border: 1px solid black;
+  width: max-content;
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+}
+.card img{
+  width: 300px;
+  padding: 5px;
+}
+.title{
+  font-weight: bold;
+  margin: 20px;
+}
+button{
+  
+  background-color: #ff523b;
+  font-weight: bold;
+  margin: 20px;
+  padding: 5px 10px;
+}
+button:hover{
+  box-shadow: #ccc;
+}
+.cartImg{
+  width: 200px;
+} */

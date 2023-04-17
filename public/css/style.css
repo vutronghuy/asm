@@ -76,7 +76,7 @@
 }
 section{
     padding: 5% 10%;
-
+    background-color: bisque;
 }
 .main-home{
     width: 100%;
@@ -278,6 +278,7 @@ font-weight: 700;
 .end-text p{
     color: black;
     text-transform: capitalize;
+    background-color: bisque;
 }
 .rating {
     color: orange;
