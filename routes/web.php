@@ -19,3 +19,15 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('home');
 });
+Route::get('/trending', function () {
+    return view('trending');
+});
+Route::get('/menu', function () {
+    return view('menu');
+});
+Route::get('/product', function () {
+    return view('product');
+});
+Route::get('/cart', function () {
+    return view('cart');
+});
